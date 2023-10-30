@@ -3,8 +3,8 @@ import React from "react";
 import Home from '../pages/Home';
 import About from '../pages/About';
 import Portfolio from '../pages/Portfolio';
-// importing routes route and uselocation hook
-import { Routes, Route, uselocation } from 'react-router-dom';
+// importing routes route hook
+import { Routes, Route } from 'react-router-dom';
 
 const NavBar = () => {
   return <Routes>

@@ -13,7 +13,7 @@ const menuVariants = {
   show: {
     x: 0,
     transition: {
-      ease: [0.6, 0.01, 0.05, 0.9],
+      ease: [0.6, 0.01, -0.05, 0.9],
     },
   },
 };
@@ -22,28 +22,28 @@ const MobileNav = () => {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
-    <nav className="text-black xl:hidden">
+    <nav className="py-4 px-50 lg:hidden">
       {/* mobile nav button */}
       <div
         onClick={() => setOpenMenu(true)}
         className="text-3xl cursor-pointer"
       >
-        <CgMenuRight />
+        <CgMenuRight color="white"/>
       </div>
       {/* menu on open */}
       <motion.div
         variants={menuVariants}
         initial="hidden"
         animate={openMenu ? "show" : ""}
-        className="bg-white shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20"
+        className="bg-pink-200 shadow-2xl w-full absolute top-0 right-0 max-w-xs h-screen z-20"
       >
         <div
           onClick={() => setOpenMenu(false)}
-          className="text-4xl absolute z-30 left-4 top-14 text-black cursor-pointer "
+          className="text-4xl absolute z-30 left-4 top-14 text-white cursor-pointer "
         >
           <IoMdClose />
         </div>
-        <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-black font-bold text-3xl">
+        <ul className="h-full flex flex-col justify-center items-center gap-y-8 text-white font-bold text-3xl">
           <li>
             <Link to="/">Home</Link>
           </li>
