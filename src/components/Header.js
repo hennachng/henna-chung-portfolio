@@ -13,7 +13,7 @@ const Header = () => {
         HENNA CHUNG
         </Link>
         <nav className="w-screen text-3xl justify-center text-center hidden lg:flex gap-x-12 font-semibold">
-          <Link to={"/"} className="text-white font-vt hover:text-[#696c6d]transition">
+          <Link to={"/"} className="text-white font-vt hover:text-[#696c6d] transition">
             @home
           </Link>
           <Link to={"/about"} className="text-white font-vt hover:text-[#696c6d] transition">
