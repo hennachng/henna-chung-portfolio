@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImg from "../assets/background.png";
+import backgroundImg from "../assets/homebackground.jpg";
 
 const Portfolio = () => {
   return <div className="h-screen w-screen bg-pink-100">

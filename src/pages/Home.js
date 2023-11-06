@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundImg from "../assets/homebackground.png";
+import backgroundImg from "../assets/homebackground.jpg";
 import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
@@ -15,10 +15,10 @@ const Home = () => {
 
         <div className="max-w-[1000px] m-auto h-full w-full flex flex-col justify-center items-center ">
           <div className="z-10 rounded-xl lg:p-[150px] p-[25px]">
-              <h1 className="sm:text-8xl z-40 font-vt text-4xl font-bold text-white/80">
+              <h1 className="sm:text-8xl z-40 font-vt text-4xl font-bold text-black/80">
                 Henna Chung.
               </h1>
-              <h2 className="flex sm:text-5xl font-vt text-2xl pt-4 text-white/80">
+              <h2 className="flex sm:text-5xl font-vt text-2xl pt-4 text-black/80">
                 I'm a(n)
                 <TypeAnimation
                   sequence={[
@@ -35,10 +35,10 @@ const Home = () => {
                   style={{ fontSize: "lem", paddingLeft: "5px" }}
                 />
               </h2>
-              <div className="text-white/80 font-vt">
+              <div className="text-black/80 font-vt">
                 Developed and Brought to you by ReactJS, TailwindCSS, and bits of Framer Motion
               </div>
-              <div className="justify-center text-center font-vt text-white text-xl flex gap-x-8 font-bold z-10">
+              <div className="justify-center text-center font-vt text-black text-xl flex gap-x-8 font-bold z-10">
                 seattle, wa
               
             </div>

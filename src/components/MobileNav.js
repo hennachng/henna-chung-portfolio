@@ -28,7 +28,7 @@ const MobileNav = () => {
         onClick={() => setOpenMenu(true)}
         className="text-3xl cursor-pointer"
       >
-        <CgMenuRight color="white"/>
+        <CgMenuRight/>
       </div>
       {/* menu on open */}
       <motion.div
@@ -39,11 +39,11 @@ const MobileNav = () => {
       >
         <div
           onClick={() => setOpenMenu(false)}
-          className="text-4xl absolute z-30 left-4 top-8 text-white cursor-pointer "
+          className="text-4xl absolute z-30 left-4 top-8 text-black cursor-pointer "
         >
           <IoMdClose />
         </div>
-        <ul className="h-full z-40 flex flex-col justify-center items-center gap-y-8 text-white font-bold text-3xl">
+        <ul className="h-full z-40 flex flex-col justify-center items-center gap-y-8 text-black font-bold text-3xl">
           <li>
             <Link to="/">Home</Link>
           </li>
