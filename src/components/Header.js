@@ -7,10 +7,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   return (
     <div className="fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center">
-   
       <div className="flex flex-col lg:flex-row  w-full justify-between">
         <Link to={"/"} className="lg:hidden font-vt text-black py-6 text-5xl">
-        HENNA CHUNG
+        H.C.
         </Link>
         <nav className="w-screen text-3xl hidden lg:flex gap-x-12 font-semibold">
           <Link to={"/"} className="text-black font-vt hover:text-[#696c6d] transition">
